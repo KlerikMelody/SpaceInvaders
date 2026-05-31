@@ -71,7 +71,7 @@ public class GameSession {
             nextTrashSpawnTime = TimeUtils.millis() + (long) (GameSettings.STARTING_TRASH_APPEARANCE_COOL_DOWN
                     * getTrashPeriodCoolDown()) - DifficultyRising;
             if ( DifficultyRising < 1100 ) {
-                DifficultyRising += 100;
+                DifficultyRising += 50;
             }
             return true;
 
